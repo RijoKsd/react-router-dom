@@ -4,9 +4,9 @@ import { Outlet } from "react-router-dom";
 
 const DashboardReport = () => {
   return (
-    <div>
+    <div className="p-3">
       <h1 className=" text-2xl md:text-6xl font-extrabold underline my-7">
-       Report Page 
+        Report Page
       </h1>
       <p className="text-balance break-all hyphens-auto tracking-wider leading-7">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia saepe
@@ -17,7 +17,7 @@ const DashboardReport = () => {
         cumque consequatur. Fuga pariatur accusamus eaque odio itaque.
       </p>
 
-      <hr  className="bg-black w-96 my-4 h-1"/>
+      <hr className="bg-black md:w-96 my-4 h-1" />
       <Outlet />
     </div>
   );

@@ -3,9 +3,9 @@ import { Outlet } from "react-router-dom";
  
 const Settings = () => {
   return (
-    <div>
+    <div className="p-3">
       <h1 className=" text-2xl md:text-6xl font-extrabold underline my-7">
-       Settings
+        Settings
       </h1>
       <p className="text-balance break-all hyphens-auto tracking-wider leading-7">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia saepe
@@ -16,7 +16,7 @@ const Settings = () => {
         cumque consequatur. Fuga pariatur accusamus eaque odio itaque.
       </p>
 
-      <hr className="bg-black w-96 my-4 h-1" />
+      <hr className="bg-black md:w-96 my-4 h-1" />
       <Outlet />
     </div>
   );

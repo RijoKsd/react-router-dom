@@ -2,7 +2,7 @@
 
 const Profile = () => {
   return (
-    <div>
+    <div className="p-3">
       <h1 className=" text-2xl md:text-6xl font-extrabold underline my-7">
         Profile
       </h1>
@@ -14,8 +14,6 @@ const Profile = () => {
         nostrum molestias veritatis debitis asperiores inventore, praesentium
         cumque consequatur. Fuga pariatur accusamus eaque odio itaque.
       </p>
-
-       
     </div>
   );
 }

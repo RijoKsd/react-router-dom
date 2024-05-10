@@ -2,7 +2,7 @@
 
 const Order = () => {
   return (
-    <div>
+    <div className="p-3">
       <h1 className=" text-xl md:text-4xl font-extrabold underline my-7">
         Orders
       </h1>
